@@ -7,7 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="daylog" />
         </element>
-        <element id="directory" name="lib" />
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="sshlib" />
+          <element id="library" level="application" name="mysql:mysql-connector-java:5.1.30" />
+        </element>
       </element>
     </root>
   </artifact>
